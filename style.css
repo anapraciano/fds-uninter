@@ -1,0 +1,159 @@
+body{
+    background-color: #EFEEEA;
+    font-family: "Inter";
+    padding:5px;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    color: #273F4F;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 60px;
+}
+
+.bio{
+    text-align: justify;
+    font-size: 20px;
+    margin:20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    color: #EFEEEA;
+    background-color: #FE7743;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img{
+    filter: saturate(120%);
+    border-radius: 10px;
+    cursor: pointer;
+    width:600px;
+}
+
+.hobbies{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 20px
+}
+
+.hobbies img{
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.hobbies ul li{
+    padding: 12px;
+    font-size: 24px;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255,255, 255, .5);
+    border-radius: 10px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+th{
+    background-color: #273F4F;
+    color: white;
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(39,63, 79, .08);
+}
+
+img:hover {
+    filter:grayscale(120%) contrast(120%);
+    transform: scale(103%);
+    transition: filter transform 0.2s ease;
+}
+
+.cabecalho{
+    background-color: #273F4F;
+    color: white;
+    padding: 8px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    right: 10px;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover{
+    color: #FE7743;
+}
+
+.voltar img{
+    width: 2%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+}
+
+.voltar img:hover{
+    transform:scale(105%);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#inicio{
+    position: fixed;
+    top: 0;
+}
+
+.rodape{
+    background-color: #273F4F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+span a{
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: bold;
+    color: #273F4F;
+}
+
+span a:hover{
+    color: #FE7743;
+}
+
+#mensagem {
+    display:none;
+    margin-top: 15px;
+    font-style: italic;
+    color: #273F4F;
+}
+
